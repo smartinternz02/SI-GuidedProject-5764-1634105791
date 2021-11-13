@@ -1,1 +1,1 @@
-# dynamic-pricing-prediction-for-cabs
+# Dynamic-Price-Predictor-for-cabs

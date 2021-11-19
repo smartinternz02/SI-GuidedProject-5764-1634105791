@@ -1,0 +1,64 @@
+.hero {
+    position: relative; 
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    
+    
+}
+
+.hero::before {    
+      content: "";
+      background-image: url('cars.jpg');
+      background-size: cover;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      opacity: 0.75;
+}
+h1{
+  position: relative;
+  color:white;  
+  font-size: 25px;
+  
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 1.9;
+  
+  text-align: center
+}
+
+p {
+  position: relative;
+  color:white;  
+  font-size: 15px;
+  
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 1.9;
+  
+  text-align: center;
+}
+
+.btn{
+  
+  text-decoration: none;
+  color: white;
+
+}
+.text-muted{
+  text-decoration: none;
+  color: white;
+}
+a{
+  text-decoration: none;
+  color: yellow;
+}
+.btn2{
+   color: skyblue;
+   border-radius: 2px solid white;
+   background-color: black;
+   padding: 6px;
+   margin: 5px;
+  }
+
